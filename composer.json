@@ -8,17 +8,17 @@
         {
             "name": "Adrián Heras",
             "email": "adrianheras@gmail.com",
-	        "homepage": "http://github.com/adrianheras"
+            "homepage": "http://github.com/adrianheras"
         }
     ],
     "require": {
-		"php": ">=5.3.0",
+	    "php": ">=5.3.0",
         "twig/twig": "~1.12",
         "adrianheras/amount-symbol": "1.*"
     },
     "autoload": {
-        "psr-0": { 
-			"AdrianHeras": "src/"
+        "psr-0": {
+            "AdrianHeras": "src/"
 		}
     },
     "extra": {
