@@ -1,0 +1,28 @@
+{
+    "name": "adrianheras/amount-symbol",
+    "description": "Amount symbol Twig extension where you can easily add symbol to amounts like currencies and percentages.",
+    "keywords": ["time", "twig", "amount", "symbol", "amount with symbol"],
+    "homepage": "http://github.com/adrianheras/amount-symbol",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrián Heras",
+            "email": "adrianheras@gmail.com",
+	        "homepage": "http://github.com/adrianheras"
+        }
+    ],
+    "require": {
+		"php": ">=5.3.0",
+        "twig/twig": "~1.12"
+    },
+    "autoload": {
+        "psr-0": { 
+			"AdrianHeras": "src/"
+		}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
