@@ -23,7 +23,7 @@ class AmountSymbolExtension extends \Twig_Extension
      *
      * Includes the defined symbol to an amount like currencies or percentages.
      * For example, if the amount is 70.95 and the parameter $symbol is defined by the string "EUR", it'll return
-     * "70.95 simobloooooooooooooooooooooooo". See the source for the complete symbol list.
+     * "70.95 €". See the source for the complete symbol list.
      *
      * @param string $amount
      * @param string $symbol
@@ -38,8 +38,10 @@ class AmountSymbolExtension extends \Twig_Extension
         $result = $amount." ";
         switch ($symbol) {
             case "EUR":
-                $result .= "euros";
-                "euros";
+                $result .= "€";
+                break;
+            case "USA":
+                $result .= "$";
                 break;
             case "percentage":
                 $result .= "%";
