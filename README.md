@@ -47,5 +47,4 @@ XML:
 
 <service id="adrianheras.twig.amount_symbol" class="AdrianHeras\Twig\Extension\AmountSymbolExtension">
 	<tag name="twig.extension" />
-	<argument type="service" id="translator" />
 </service>
