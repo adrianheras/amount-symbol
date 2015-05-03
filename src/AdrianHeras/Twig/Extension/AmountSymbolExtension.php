@@ -43,6 +43,15 @@ class AmountSymbolExtension extends \Twig_Extension
             case "USA":
                 $result .= "$";
                 break;
+            case "UK":
+                $result .= "£";
+                break;
+            case "JAP":
+                $result .= "¥";
+                break;
+            case "IND":
+                $result .= "₹";
+                break;
             case "percentage":
                 $result .= "%";
                 break;
