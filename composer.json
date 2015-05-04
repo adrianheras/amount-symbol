@@ -1,7 +1,7 @@
 {
     "name": "adrianheras/amount-symbol",
     "description": "Amount symbol Twig extension where you can easily add symbol to amounts like currencies and percentages",
-    "keywords": ["symbol", "twig", "amount", "amount with symbol"],
+    "keywords": ["symbol", "twig", "amount", "amount with symbol", "percentage"],
     "homepage": "http://github.com/adrianheras/amount-symbol",
     "license": "MIT",
     "authors": [
